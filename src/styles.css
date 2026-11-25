@@ -72,7 +72,27 @@ section { padding: 16px; border-bottom: 1px solid var(--line); }
 
 .stage { display: grid; min-height: 0; min-width: 0; }
 .stage.view-split { grid-template-rows: 58% 42%; }
-.stage.view-split .preview { border-top: 1px solid var(--line); }
+.stage.view-split .pane + .pane { border-top: 1px solid var(--line); }
+.stage.view-plan { grid-template-rows: 1fr 34px; }
+.stage.view-3d { grid-template-rows: 34px 1fr; }
+
+/* Plantegning og 3D-rom kan minimeres */
+.pane { position: relative; display: grid; grid-template-rows: 1fr; min-height: 0; min-width: 0; }
+.pane > .plan, .pane > .preview { min-height: 0; }
+.pane-min {
+  position: absolute; top: 10px; left: 12px; z-index: 3; padding: 4px 9px; font-size: 12px;
+  border: 1px solid var(--line); border-radius: 6px; background: rgba(255,255,255,.9); color: var(--muted); cursor: pointer;
+}
+.pane-min:hover { color: var(--ink); border-color: #c9c4ba; }
+.minbar {
+  display: flex; align-items: center; gap: 10px; padding: 0 14px; border: 0; background: var(--panel);
+  font: inherit; font-size: 12px; color: var(--ink); cursor: pointer; text-align: left;
+}
+.minbar.top { border-bottom: 1px solid var(--line); }
+.minbar.bottom { border-top: 1px solid var(--line); }
+.minbar:hover { background: var(--accent-soft); }
+.minbar-label { font-weight: 600; }
+.minbar-action { margin-left: auto; color: var(--accent); font-weight: 500; }
 
 .plan { position: relative; min-height: 0; overflow: hidden; background: var(--bg); }
 .plan-hint {

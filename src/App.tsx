@@ -227,14 +227,35 @@ export default function App() {
               onExport={() => download(`${name}.deleliste.csv`, partListCsv(design), 'text/csv;charset=utf-8')} />
           ) : (
             <>
-              {view !== '3d' && (
-                <Plan2D
-                  design={design} labels={labels} warnings={warnings} selectedId={selectedId} snapOn={snapOn}
-                  onSelect={setSelectedId} set={set} checkpoint={checkpoint}
-                  onDropModule={(t, x, y) => addModule(t, x, y)}
-                />
+              {/* Hver visning kan minimeres til en stripe, så den andre fyller hele midtfeltet */}
+              {view === '3d' ? (
+                <MinBar label="Plantegning" edge="top" onRestore={() => setView('split')} />
+              ) : (
+                <div className="pane">
+                  {view === 'split' && (
+                    <button className="pane-min" title="Minimer plantegningen (3D fyller feltet)" onClick={() => setView('3d')}>
+                      – Minimer
+                    </button>
+                  )}
+                  <Plan2D
+                    design={design} labels={labels} warnings={warnings} selectedId={selectedId} snapOn={snapOn}
+                    onSelect={setSelectedId} set={set} checkpoint={checkpoint}
+                    onDropModule={(t, x, y) => addModule(t, x, y)}
+                  />
+                </div>
               )}
-              {view !== 'plan' && <Preview3D design={design} selectedId={selectedId} onSelect={setSelectedId} />}
+              {view === 'plan' ? (
+                <MinBar label="3D-rom" edge="bottom" onRestore={() => setView('split')} />
+              ) : (
+                <div className="pane">
+                  {view === 'split' && (
+                    <button className="pane-min" title="Minimer 3D-rommet (plantegningen fyller feltet)" onClick={() => setView('plan')}>
+                      – Minimer
+                    </button>
+                  )}
+                  <Preview3D design={design} selectedId={selectedId} onSelect={setSelectedId} />
+                </div>
+              )}
             </>
           )}
         </div>
@@ -245,5 +266,16 @@ export default function App() {
       </main>
       {toast && <div className="toast">{toast}</div>}
     </div>
+  );
+}
+
+/** Stripen en minimert visning krymper til. Klikk for å vise den igjen. */
+function MinBar({ label, edge, onRestore }: { label: string; edge: 'top' | 'bottom'; onRestore(): void }) {
+  return (
+    <button className={`minbar ${edge}`} onClick={onRestore} title={`Vis ${label.toLowerCase()} igjen`}>
+      <span className="minbar-label">{label}</span>
+      <span className="muted">minimert</span>
+      <span className="minbar-action">{edge === 'top' ? '▾' : '▴'} Vis</span>
+    </button>
   );
 }

@@ -31,6 +31,7 @@ Denne kommandoen lager `index.html` på nytt fra `app.html` og `src/`. `app.html
 
 - **Moduler:** Dra underskap, hylle eller skrivebord fra venstre inn i planen, eller klikk på dem.
 - **Snapping:** Modulene legger ryggen inntil nærmeste vegg og roterer seg automatisk. Kantene festes mot hjørner og naboer. Hold **Shift** mens du drar for å plassere fritt.
+- **Minimer:** Plantegningen og 3D-rommet har hver sin knapp, **– Minimer**, øverst til venstre. Den minimerte visningen blir en smal stripe, og den andre fyller hele midtfeltet. Klikk stripen for å få begge tilbake.
 - **Fyll vegg:** Fyller ledig plass langs en vegg med moduler i jevne bredder, utenom dører og vinduer.
 - **Hurtigtaster:** R roterer, Del sletter, Ctrl+D dupliserer, Ctrl+Z angrer, Ctrl+Y gjør om, Esc fjerner markeringen.
 - **Kontroll:** Rødt betyr kollisjon, utenfor rommet, sperret dør eller høyere enn taket. Gult betyr at modulen dekker et vindu eller har mindre enn 800 mm fri plass foran seg.
