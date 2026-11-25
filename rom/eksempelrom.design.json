@@ -1,0 +1,52 @@
+{
+  "schema": "design/1",
+  "room": {
+    "schema": "rom/1",
+    "name": "Eksempelrom",
+    "width": 4000,
+    "depth": 3200,
+    "height": 2500,
+    "wallThickness": 120,
+    "openings": [
+      {
+        "id": "d1",
+        "kind": "door",
+        "wall": "S",
+        "offset": 400,
+        "width": 900,
+        "height": 2100,
+        "hinge": "start"
+      },
+      {
+        "id": "w1",
+        "kind": "window",
+        "wall": "N",
+        "offset": 1500,
+        "width": 1200,
+        "height": 1200,
+        "sill": 900
+      }
+    ]
+  },
+  "modules": [
+    {
+      "id": "uk3",
+      "type": "underskap",
+      "x": 3700,
+      "y": 2300,
+      "rotation": 90,
+      "params": {
+        "bredde": 600,
+        "hoyde": 750,
+        "dybde": 580,
+        "tykkelse": 18,
+        "sokkel": 100,
+        "dorer": 1,
+        "hyller": 1,
+        "benkeplate": true,
+        "benkTykkelse": 30,
+        "farge": "hvit"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+Bestillingspakke: Eksempelrom
+===============================
+
+MDF (CNC / platetilskjæring)
+  dxf/                 45 DXF-filer, én per unik plate. Lag:
+                         KONTUR            ytterkant
+                         GJENNOM_D<d>      gjennomgående hull
+                         S1_D<d>_Z<dybde>  blindhull fra side 1 (siden i tegningen)
+                         S2_D<d>_Z<dybde>  blindhull fra side 2 (baksiden), sett gjennom platen
+                         KANT_D<d>_Z<dybde> horisontal boring i kanten, midt i tykkelsen
+                         TEKST             del-ID, mål og antall
+  mdf-bestilling.csv   alle deler med mål, antall og hull
+  mdf-sammendrag.csv   6 mm: 5.05 m², 18 mm: 14.22 m², 25 mm: 2.39 m², 30 mm: 1.44 m²
+
+3D-print
+  3d-print/            STL og 3MF
+  3d-print.csv         antall, materiale og vekt (158 g PETG totalt)
+
+Kjøpes
+  beslag-kjop.csv      skruer, hengsler, ben og innsatser
+
+Montering
+  montering.pdf        oversikt, plastdeler og én side per modultype med eksplodert tegning og steg
+
+Modell
+  modell/              STEP for CAD/CAM og SolidCraft-fil
+
+Alle mål i mm.

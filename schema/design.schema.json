@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "design/1",
+  "title": "Design",
+  "description": "Et innredet rom: rommet og alle møbelmodulene. Dette er felles kilde for editor, SolidCraft og deleliste.",
+  "type": "object",
+  "required": ["schema", "room", "modules"],
+  "properties": {
+    "schema": { "const": "design/1" },
+    "room": { "$ref": "rom.schema.json" },
+    "modules": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/module" }
+    }
+  },
+  "$defs": {
+    "module": {
+      "type": "object",
+      "required": ["id", "type", "x", "y", "rotation", "params"],
+      "properties": {
+        "id": { "type": "string" },
+        "type": { "enum": ["hylle", "underskap", "skrivebord"] },
+        "x": { "type": "number", "description": "Senter av fotavtrykket, mm" },
+        "y": { "type": "number", "description": "Senter av fotavtrykket, mm" },
+        "rotation": {
+          "enum": [0, 90, 180, 270],
+          "description": "Med klokka sett ovenfra. 0 = ryggen mot nord, 90 = ryggen mot øst, 180 = mot sør, 270 = mot vest."
+        },
+        "params": {
+          "type": "object",
+          "description": "Modulparametere. Se møbelbiblioteket for gyldige nøkler og grenser per type.",
+          "additionalProperties": { "type": ["number", "boolean", "string"] },
+          "properties": {
+            "bredde": { "type": "number" },
+            "hoyde": { "type": "number" },
+            "dybde": { "type": "number" },
+            "tykkelse": { "type": "number" },
+            "farge": { "type": "string" }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+﻿ID;Modul;Del;Materiale;Tykkelse (mm);Lengde (mm);Bredde (mm);Antall;Farge;Merknad
+SB-01-GAVL;SB-01;Gavl;MDF;25;715;700;2;Hvit;Ø7 konfirmathull for rygg, Ø10 for justerbare glidere
+SB-01-TOPP;SB-01;Bordplate;MDF;25;1400;700;1;Hvit;Festes med vinkelbeslag fra undersiden
+SB-01-RYGG;SB-01;Rygg;MDF;25;1350;300;1;Hvit;60 mm fra bakkant. Ø7 konfirmathull i begge ender
+SB-01-B01;SB-01;Vinkelbeslag (3D-print, plast);Beslag;;;;4;;
+SB-01-B02;SB-01;Sponplateskrue 4×16;Beslag;;;;16;;
+SB-01-B03;SB-01;Justerbar glider;Beslag;;;;4;;
+SB-01-B04;SB-01;Konfirmatskrue 7×50;Beslag;;;;4;;
+HY-01-SIDE;HY-01;Side;MDF;18;2000;344;2;Hvit;32 mm-hyllehull Ø5, 2 rader 37 mm fra kant. Ø5 konfirmathull topp/bunn
+HY-01-TOPP;HY-01;Topp;MDF;18;764;344;1;Hvit;Ø7 konfirmathull i begge ender
+HY-01-BUNN;HY-01;Bunn;MDF;18;764;344;1;Hvit;Ø7 konfirmathull i begge ender
+HY-01-HYLLE;HY-01;Løs hylle;MDF;18;762;334;4;Hvit;1 mm klaring per side, 10 mm tilbaketrukket
+HY-01-BAK;HY-01;Bakplate;MDF;6;2000;800;1;Hvit;Skrus i bakkant
+HY-01-B01;HY-01;Konfirmatskrue 7×50;Beslag;;;;8;;
+HY-01-B02;HY-01;Hyllebærer Ø5 (3D-print, plast);Beslag;;;;16;;
+HY-01-B03;HY-01;Veggfeste / tippsikring;Beslag;;;;2;;
+HY-01-B04;HY-01;Sponplateskrue 3,5×16;Beslag;;;;38;;
+HY-02-SIDE;HY-02;Side;MDF;18;2000;344;2;Hvit;32 mm-hyllehull Ø5, 2 rader 37 mm fra kant. Ø5 konfirmathull topp/bunn
+HY-02-TOPP;HY-02;Topp;MDF;18;764;344;1;Hvit;Ø7 konfirmathull i begge ender
+HY-02-BUNN;HY-02;Bunn;MDF;18;764;344;1;Hvit;Ø7 konfirmathull i begge ender
+HY-02-HYLLE;HY-02;Løs hylle;MDF;18;762;334;4;Hvit;1 mm klaring per side, 10 mm tilbaketrukket
+HY-02-BAK;HY-02;Bakplate;MDF;6;2000;800;1;Hvit;Skrus i bakkant
+HY-02-B01;HY-02;Konfirmatskrue 7×50;Beslag;;;;8;;
+HY-02-B02;HY-02;Hyllebærer Ø5 (3D-print, plast);Beslag;;;;16;;
+HY-02-B03;HY-02;Veggfeste / tippsikring;Beslag;;;;2;;
+HY-02-B04;HY-02;Sponplateskrue 3,5×16;Beslag;;;;38;;
+UK-01-SIDE;UK-01;Side;MDF;18;770;554;2;Hvit;Ø35 hengselkopp-plater, 32 mm-hyllehull Ø5
+UK-01-BUNN;UK-01;Bunn;MDF;18;564;554;1;Hvit;Ø7 konfirmathull i begge ender, Ø10 for justerbare ben
+UK-01-REKKE;UK-01;Topprekke;MDF;18;564;100;2;Hvit;Front. Ø7 konfirmathull i begge ender
+UK-01-BAK;UK-01;Bakplate;MDF;6;770;600;1;Hvit;Skrus i bakkant
+UK-01-SOKKEL;UK-01;Sokkelfront;MDF;18;600;98;1;Hvit;Festes med sokkelklips, 50 mm tilbaketrukket
+UK-01-HYLLE;UK-01;Løs hylle;MDF;18;562;534;1;Hvit;1 mm klaring per side
+UK-01-DOR;UK-01;Dør;MDF;18;767;597;1;Hvit;Ø35 hengselkopp 22 mm fra kant, 100 mm fra topp/bunn. 3 mm fuge
+UK-01-BENK;UK-01;Benkeplate;MDF;30;600;600;1;Hvit;Fuktbestandig MDF, lakkert. Skrus fra undersiden gjennom rekker
+UK-01-B01;UK-01;Konfirmatskrue 7×50;Beslag;;;;14;;
+UK-01-B02;UK-01;Justerbart skapben;Beslag;;;;4;;
+UK-01-B03;UK-01;Sokkelklips;Beslag;;;;2;;
+UK-01-B04;UK-01;Sponplateskrue 3,5×16;Beslag;;;;19;;
+UK-01-B05;UK-01;Hengsel Ø35 med demping;Beslag;;;;2;;
+UK-01-B06;UK-01;Knott Ø30 (3D-print, plast);Beslag;;;;1;;
+UK-01-B07;UK-01;Gjengeinnsats M4 (messing, for knott);Beslag;;;;1;;
+UK-01-B08;UK-01;Maskinskrue M4×25 (knott);Beslag;;;;1;;
+UK-01-B09;UK-01;Hyllebærer Ø5 (3D-print, plast);Beslag;;;;4;;
+UK-01-B10;UK-01;Sponplateskrue 4×40 (benkeplate);Beslag;;;;6;;
+UK-02-SIDE;UK-02;Side;MDF;18;770;554;2;Hvit;Ø35 hengselkopp-plater, 32 mm-hyllehull Ø5
+UK-02-BUNN;UK-02;Bunn;MDF;18;564;554;1;Hvit;Ø7 konfirmathull i begge ender, Ø10 for justerbare ben
+UK-02-REKKE;UK-02;Topprekke;MDF;18;564;100;2;Hvit;Front. Ø7 konfirmathull i begge ender
+UK-02-BAK;UK-02;Bakplate;MDF;6;770;600;1;Hvit;Skrus i bakkant
+UK-02-SOKKEL;UK-02;Sokkelfront;MDF;18;600;98;1;Hvit;Festes med sokkelklips, 50 mm tilbaketrukket
+UK-02-HYLLE;UK-02;Løs hylle;MDF;18;562;534;1;Hvit;1 mm klaring per side
+UK-02-DOR;UK-02;Dør;MDF;18;767;597;1;Hvit;Ø35 hengselkopp 22 mm fra kant, 100 mm fra topp/bunn. 3 mm fuge
+UK-02-BENK;UK-02;Benkeplate;MDF;30;600;600;1;Hvit;Fuktbestandig MDF, lakkert. Skrus fra undersiden gjennom rekker
+UK-02-B01;UK-02;Konfirmatskrue 7×50;Beslag;;;;14;;
+UK-02-B02;UK-02;Justerbart skapben;Beslag;;;;4;;
+UK-02-B03;UK-02;Sokkelklips;Beslag;;;;2;;
+UK-02-B04;UK-02;Sponplateskrue 3,5×16;Beslag;;;;19;;
+UK-02-B05;UK-02;Hengsel Ø35 med demping;Beslag;;;;2;;
+UK-02-B06;UK-02;Knott Ø30 (3D-print, plast);Beslag;;;;1;;
+UK-02-B07;UK-02;Gjengeinnsats M4 (messing, for knott);Beslag;;;;1;;
+UK-02-B08;UK-02;Maskinskrue M4×25 (knott);Beslag;;;;1;;
+UK-02-B09;UK-02;Hyllebærer Ø5 (3D-print, plast);Beslag;;;;4;;
+UK-02-B10;UK-02;Sponplateskrue 4×40 (benkeplate);Beslag;;;;6;;
+UK-03-SIDE;UK-03;Side;MDF;18;770;554;2;Hvit;Ø35 hengselkopp-plater, 32 mm-hyllehull Ø5
+UK-03-BUNN;UK-03;Bunn;MDF;18;564;554;1;Hvit;Ø7 konfirmathull i begge ender, Ø10 for justerbare ben
+UK-03-REKKE;UK-03;Topprekke;MDF;18;564;100;2;Hvit;Front. Ø7 konfirmathull i begge ender
+UK-03-BAK;UK-03;Bakplate;MDF;6;770;600;1;Hvit;Skrus i bakkant
+UK-03-SOKKEL;UK-03;Sokkelfront;MDF;18;600;98;1;Hvit;Festes med sokkelklips, 50 mm tilbaketrukket
+UK-03-HYLLE;UK-03;Løs hylle;MDF;18;562;534;1;Hvit;1 mm klaring per side
+UK-03-DOR;UK-03;Dør;MDF;18;767;597;1;Hvit;Ø35 hengselkopp 22 mm fra kant, 100 mm fra topp/bunn. 3 mm fuge
+UK-03-BENK;UK-03;Benkeplate;MDF;30;600;600;1;Hvit;Fuktbestandig MDF, lakkert. Skrus fra undersiden gjennom rekker
+UK-03-B01;UK-03;Konfirmatskrue 7×50;Beslag;;;;14;;
+UK-03-B02;UK-03;Justerbart skapben;Beslag;;;;4;;
+UK-03-B03;UK-03;Sokkelklips;Beslag;;;;2;;
+UK-03-B04;UK-03;Sponplateskrue 3,5×16;Beslag;;;;19;;
+UK-03-B05;UK-03;Hengsel Ø35 med demping;Beslag;;;;2;;
+UK-03-B06;UK-03;Knott Ø30 (3D-print, plast);Beslag;;;;1;;
+UK-03-B07;UK-03;Gjengeinnsats M4 (messing, for knott);Beslag;;;;1;;
+UK-03-B08;UK-03;Maskinskrue M4×25 (knott);Beslag;;;;1;;
+UK-03-B09;UK-03;Hyllebærer Ø5 (3D-print, plast);Beslag;;;;4;;
+UK-03-B10;UK-03;Sponplateskrue 4×40 (benkeplate);Beslag;;;;6;;
+UK-04-SIDE;UK-04;Side;MDF;18;770;554;2;Hvit;Ø35 hengselkopp-plater, 32 mm-hyllehull Ø5
+UK-04-BUNN;UK-04;Bunn;MDF;18;564;554;1;Hvit;Ø7 konfirmathull i begge ender, Ø10 for justerbare ben
+UK-04-REKKE;UK-04;Topprekke;MDF;18;564;100;2;Hvit;Front. Ø7 konfirmathull i begge ender
+UK-04-BAK;UK-04;Bakplate;MDF;6;770;600;1;Hvit;Skrus i bakkant
+UK-04-SOKKEL;UK-04;Sokkelfront;MDF;18;600;98;1;Hvit;Festes med sokkelklips, 50 mm tilbaketrukket
+UK-04-HYLLE;UK-04;Løs hylle;MDF;18;562;534;1;Hvit;1 mm klaring per side
+UK-04-DOR;UK-04;Dør;MDF;18;767;597;1;Hvit;Ø35 hengselkopp 22 mm fra kant, 100 mm fra topp/bunn. 3 mm fuge
+UK-04-BENK;UK-04;Benkeplate;MDF;30;600;600;1;Hvit;Fuktbestandig MDF, lakkert. Skrus fra undersiden gjennom rekker
+UK-04-B01;UK-04;Konfirmatskrue 7×50;Beslag;;;;14;;
+UK-04-B02;UK-04;Justerbart skapben;Beslag;;;;4;;
+UK-04-B03;UK-04;Sokkelklips;Beslag;;;;2;;
+UK-04-B04;UK-04;Sponplateskrue 3,5×16;Beslag;;;;19;;
+UK-04-B05;UK-04;Hengsel Ø35 med demping;Beslag;;;;2;;
+UK-04-B06;UK-04;Knott Ø30 (3D-print, plast);Beslag;;;;1;;
+UK-04-B07;UK-04;Gjengeinnsats M4 (messing, for knott);Beslag;;;;1;;
+UK-04-B08;UK-04;Maskinskrue M4×25 (knott);Beslag;;;;1;;
+UK-04-B09;UK-04;Hyllebærer Ø5 (3D-print, plast);Beslag;;;;4;;
+UK-04-B10;UK-04;Sponplateskrue 4×40 (benkeplate);Beslag;;;;6;;

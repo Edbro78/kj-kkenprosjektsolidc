@@ -1,0 +1,5368 @@
+{
+ "commands": [
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     -120,
+     -120,
+     -20
+    ],
+    "length": 4240,
+    "width": 3440,
+    "height": 20,
+    "name": "ROM-GULV",
+    "body_name": "ROM-GULV",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     -120,
+     3200,
+     0
+    ],
+    "length": 4240,
+    "width": 120,
+    "height": 2500,
+    "name": "ROM-VEGG-N",
+    "body_name": "ROM-VEGG-N",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     -120,
+     -120,
+     0
+    ],
+    "length": 4240,
+    "width": 120,
+    "height": 2500,
+    "name": "ROM-VEGG-S",
+    "body_name": "ROM-VEGG-S",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     -120,
+     0,
+     0
+    ],
+    "length": 120,
+    "width": 3200,
+    "height": 2500,
+    "name": "ROM-VEGG-V",
+    "body_name": "ROM-VEGG-V",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     4000,
+     0,
+     0
+    ],
+    "length": 120,
+    "width": 3200,
+    "height": 2500,
+    "name": "ROM-VEGG-Ø",
+    "body_name": "ROM-VEGG-Ø",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     400,
+     -121,
+     0
+    ],
+    "length": 900,
+    "width": 122,
+    "height": 2100,
+    "operation": "cut",
+    "targets": [
+     "ROM-VEGG-S"
+    ],
+    "name": "Døråpning d1"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     1500,
+     3199,
+     900
+    ],
+    "length": 1200,
+    "width": 122,
+    "height": 1200,
+    "operation": "cut",
+    "targets": [
+     "ROM-VEGG-N"
+    ],
+    "name": "Vindusåpning w1"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     1400,
+     2500,
+     0
+    ],
+    "length": 25,
+    "width": 700,
+    "height": 715,
+    "name": "SB-01-GAVL.1",
+    "body_name": "SB-01-GAVL.1",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     2775,
+     2500,
+     0
+    ],
+    "length": 25,
+    "width": 700,
+    "height": 715,
+    "name": "SB-01-GAVL.2",
+    "body_name": "SB-01-GAVL.2",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     1400,
+     2500,
+     715
+    ],
+    "length": 1400,
+    "width": 700,
+    "height": 25,
+    "name": "SB-01-TOPP",
+    "body_name": "SB-01-TOPP",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     1425,
+     3115,
+     415
+    ],
+    "length": 1350,
+    "width": 25,
+    "height": 300,
+    "name": "SB-01-RYGG",
+    "body_name": "SB-01-RYGG",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 26,
+    "base": [
+     1399.5,
+     3127.5,
+     452
+    ],
+    "axis": [
+     1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "SB-01-GAVL.1"
+    ],
+    "name": "SB-01-GAVL.1 konfirmat 1"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 28.5,
+    "base": [
+     1424.5,
+     3127.5,
+     452
+    ],
+    "axis": [
+     1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "SB-01-RYGG"
+    ],
+    "name": "SB-01-RYGG konfirmat-forboring 2"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 26,
+    "base": [
+     1399.5,
+     3127.5,
+     678
+    ],
+    "axis": [
+     1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "SB-01-GAVL.1"
+    ],
+    "name": "SB-01-GAVL.1 konfirmat 3"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 28.5,
+    "base": [
+     1424.5,
+     3127.5,
+     678
+    ],
+    "axis": [
+     1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "SB-01-RYGG"
+    ],
+    "name": "SB-01-RYGG konfirmat-forboring 4"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 26,
+    "base": [
+     2800.5,
+     3127.5,
+     452
+    ],
+    "axis": [
+     -1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "SB-01-GAVL.2"
+    ],
+    "name": "SB-01-GAVL.2 konfirmat 5"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 28.5,
+    "base": [
+     2775.5,
+     3127.5,
+     452
+    ],
+    "axis": [
+     -1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "SB-01-RYGG"
+    ],
+    "name": "SB-01-RYGG konfirmat-forboring 6"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 26,
+    "base": [
+     2800.5,
+     3127.5,
+     678
+    ],
+    "axis": [
+     -1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "SB-01-GAVL.2"
+    ],
+    "name": "SB-01-GAVL.2 konfirmat 7"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 28.5,
+    "base": [
+     2775.5,
+     3127.5,
+     678
+    ],
+    "axis": [
+     -1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "SB-01-RYGG"
+    ],
+    "name": "SB-01-RYGG konfirmat-forboring 8"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     6,
+     2000,
+     0
+    ],
+    "length": 344,
+    "width": 18,
+    "height": 2000,
+    "name": "HY-01-SIDE.1",
+    "body_name": "HY-01-SIDE.1",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     6,
+     2782,
+     0
+    ],
+    "length": 344,
+    "width": 18,
+    "height": 2000,
+    "name": "HY-01-SIDE.2",
+    "body_name": "HY-01-SIDE.2",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     6,
+     2018,
+     1982
+    ],
+    "length": 344,
+    "width": 764,
+    "height": 18,
+    "name": "HY-01-TOPP",
+    "body_name": "HY-01-TOPP",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     6,
+     2018,
+     0
+    ],
+    "length": 344,
+    "width": 764,
+    "height": 18,
+    "name": "HY-01-BUNN",
+    "body_name": "HY-01-BUNN",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     6,
+     2019,
+     396.4
+    ],
+    "length": 334,
+    "width": 762,
+    "height": 18,
+    "name": "HY-01-HYLLE.1",
+    "body_name": "HY-01-HYLLE.1",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     6,
+     2019,
+     792.8
+    ],
+    "length": 334,
+    "width": 762,
+    "height": 18,
+    "name": "HY-01-HYLLE.2",
+    "body_name": "HY-01-HYLLE.2",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     6,
+     2019,
+     1189.2
+    ],
+    "length": 334,
+    "width": 762,
+    "height": 18,
+    "name": "HY-01-HYLLE.3",
+    "body_name": "HY-01-HYLLE.3",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     6,
+     2019,
+     1585.6
+    ],
+    "length": 334,
+    "width": 762,
+    "height": 18,
+    "name": "HY-01-HYLLE.4",
+    "body_name": "HY-01-HYLLE.4",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     0,
+     2000,
+     0
+    ],
+    "length": 6,
+    "width": 800,
+    "height": 2000,
+    "name": "HY-01-BAK",
+    "body_name": "HY-01-BAK",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     43,
+     1999.5,
+     1991
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-01-SIDE.1"
+    ],
+    "name": "HY-01-SIDE.1 konfirmat 9"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     43,
+     2017.5,
+     1991
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-01-TOPP"
+    ],
+    "name": "HY-01-TOPP konfirmat-forboring 10"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     313,
+     1999.5,
+     1991
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-01-SIDE.1"
+    ],
+    "name": "HY-01-SIDE.1 konfirmat 11"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     313,
+     2017.5,
+     1991
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-01-TOPP"
+    ],
+    "name": "HY-01-TOPP konfirmat-forboring 12"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     43,
+     1999.5,
+     9
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-01-SIDE.1"
+    ],
+    "name": "HY-01-SIDE.1 konfirmat 13"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     43,
+     2017.5,
+     9
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-01-BUNN"
+    ],
+    "name": "HY-01-BUNN konfirmat-forboring 14"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     313,
+     1999.5,
+     9
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-01-SIDE.1"
+    ],
+    "name": "HY-01-SIDE.1 konfirmat 15"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     313,
+     2017.5,
+     9
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-01-BUNN"
+    ],
+    "name": "HY-01-BUNN konfirmat-forboring 16"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     43,
+     2800.5,
+     1991
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-01-SIDE.2"
+    ],
+    "name": "HY-01-SIDE.2 konfirmat 17"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     43,
+     2782.5,
+     1991
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-01-TOPP"
+    ],
+    "name": "HY-01-TOPP konfirmat-forboring 18"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     313,
+     2800.5,
+     1991
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-01-SIDE.2"
+    ],
+    "name": "HY-01-SIDE.2 konfirmat 19"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     313,
+     2782.5,
+     1991
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-01-TOPP"
+    ],
+    "name": "HY-01-TOPP konfirmat-forboring 20"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     43,
+     2800.5,
+     9
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-01-SIDE.2"
+    ],
+    "name": "HY-01-SIDE.2 konfirmat 21"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     43,
+     2782.5,
+     9
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-01-BUNN"
+    ],
+    "name": "HY-01-BUNN konfirmat-forboring 22"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     313,
+     2800.5,
+     9
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-01-SIDE.2"
+    ],
+    "name": "HY-01-SIDE.2 konfirmat 23"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     313,
+     2782.5,
+     9
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-01-BUNN"
+    ],
+    "name": "HY-01-BUNN konfirmat-forboring 24"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 12.5,
+    "base": [
+     43,
+     2018.5,
+     82
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-01-SIDE.1"
+    ],
+    "name": "HY-01-SIDE.1 hyllehull 25"
+   }
+  },
+  {
+   "command": "solid.pattern.rectangular",
+   "params": {
+    "features": [
+     "HY-01-SIDE.1 hyllehull 25"
+    ],
+    "name": "HY-01-SIDE.1 hyllehull 25 rader",
+    "dir1": [
+     0,
+     0,
+     1
+    ],
+    "count1": 58,
+    "spacing1": 32,
+    "dir2": [
+     1,
+     0,
+     0
+    ],
+    "count2": 2,
+    "spacing2": 270
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 12.5,
+    "base": [
+     43,
+     2781.5,
+     82
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-01-SIDE.2"
+    ],
+    "name": "HY-01-SIDE.2 hyllehull 26"
+   }
+  },
+  {
+   "command": "solid.pattern.rectangular",
+   "params": {
+    "features": [
+     "HY-01-SIDE.2 hyllehull 26"
+    ],
+    "name": "HY-01-SIDE.2 hyllehull 26 rader",
+    "dir1": [
+     0,
+     0,
+     1
+    ],
+    "count1": 58,
+    "spacing1": 32,
+    "dir2": [
+     1,
+     0,
+     0
+    ],
+    "count2": 2,
+    "spacing2": 270
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     6,
+     1200,
+     0
+    ],
+    "length": 344,
+    "width": 18,
+    "height": 2000,
+    "name": "HY-02-SIDE.1",
+    "body_name": "HY-02-SIDE.1",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     6,
+     1982,
+     0
+    ],
+    "length": 344,
+    "width": 18,
+    "height": 2000,
+    "name": "HY-02-SIDE.2",
+    "body_name": "HY-02-SIDE.2",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     6,
+     1218,
+     1982
+    ],
+    "length": 344,
+    "width": 764,
+    "height": 18,
+    "name": "HY-02-TOPP",
+    "body_name": "HY-02-TOPP",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     6,
+     1218,
+     0
+    ],
+    "length": 344,
+    "width": 764,
+    "height": 18,
+    "name": "HY-02-BUNN",
+    "body_name": "HY-02-BUNN",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     6,
+     1219,
+     396.4
+    ],
+    "length": 334,
+    "width": 762,
+    "height": 18,
+    "name": "HY-02-HYLLE.1",
+    "body_name": "HY-02-HYLLE.1",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     6,
+     1219,
+     792.8
+    ],
+    "length": 334,
+    "width": 762,
+    "height": 18,
+    "name": "HY-02-HYLLE.2",
+    "body_name": "HY-02-HYLLE.2",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     6,
+     1219,
+     1189.2
+    ],
+    "length": 334,
+    "width": 762,
+    "height": 18,
+    "name": "HY-02-HYLLE.3",
+    "body_name": "HY-02-HYLLE.3",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     6,
+     1219,
+     1585.6
+    ],
+    "length": 334,
+    "width": 762,
+    "height": 18,
+    "name": "HY-02-HYLLE.4",
+    "body_name": "HY-02-HYLLE.4",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     0,
+     1200,
+     0
+    ],
+    "length": 6,
+    "width": 800,
+    "height": 2000,
+    "name": "HY-02-BAK",
+    "body_name": "HY-02-BAK",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     43,
+     1199.5,
+     1991
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-02-SIDE.1"
+    ],
+    "name": "HY-02-SIDE.1 konfirmat 27"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     43,
+     1217.5,
+     1991
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-02-TOPP"
+    ],
+    "name": "HY-02-TOPP konfirmat-forboring 28"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     313,
+     1199.5,
+     1991
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-02-SIDE.1"
+    ],
+    "name": "HY-02-SIDE.1 konfirmat 29"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     313,
+     1217.5,
+     1991
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-02-TOPP"
+    ],
+    "name": "HY-02-TOPP konfirmat-forboring 30"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     43,
+     1199.5,
+     9
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-02-SIDE.1"
+    ],
+    "name": "HY-02-SIDE.1 konfirmat 31"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     43,
+     1217.5,
+     9
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-02-BUNN"
+    ],
+    "name": "HY-02-BUNN konfirmat-forboring 32"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     313,
+     1199.5,
+     9
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-02-SIDE.1"
+    ],
+    "name": "HY-02-SIDE.1 konfirmat 33"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     313,
+     1217.5,
+     9
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-02-BUNN"
+    ],
+    "name": "HY-02-BUNN konfirmat-forboring 34"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     43,
+     2000.5,
+     1991
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-02-SIDE.2"
+    ],
+    "name": "HY-02-SIDE.2 konfirmat 35"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     43,
+     1982.5,
+     1991
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-02-TOPP"
+    ],
+    "name": "HY-02-TOPP konfirmat-forboring 36"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     313,
+     2000.5,
+     1991
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-02-SIDE.2"
+    ],
+    "name": "HY-02-SIDE.2 konfirmat 37"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     313,
+     1982.5,
+     1991
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-02-TOPP"
+    ],
+    "name": "HY-02-TOPP konfirmat-forboring 38"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     43,
+     2000.5,
+     9
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-02-SIDE.2"
+    ],
+    "name": "HY-02-SIDE.2 konfirmat 39"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     43,
+     1982.5,
+     9
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-02-BUNN"
+    ],
+    "name": "HY-02-BUNN konfirmat-forboring 40"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     313,
+     2000.5,
+     9
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-02-SIDE.2"
+    ],
+    "name": "HY-02-SIDE.2 konfirmat 41"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     313,
+     1982.5,
+     9
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-02-BUNN"
+    ],
+    "name": "HY-02-BUNN konfirmat-forboring 42"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 12.5,
+    "base": [
+     43,
+     1218.5,
+     82
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-02-SIDE.1"
+    ],
+    "name": "HY-02-SIDE.1 hyllehull 43"
+   }
+  },
+  {
+   "command": "solid.pattern.rectangular",
+   "params": {
+    "features": [
+     "HY-02-SIDE.1 hyllehull 43"
+    ],
+    "name": "HY-02-SIDE.1 hyllehull 43 rader",
+    "dir1": [
+     0,
+     0,
+     1
+    ],
+    "count1": 58,
+    "spacing1": 32,
+    "dir2": [
+     1,
+     0,
+     0
+    ],
+    "count2": 2,
+    "spacing2": 270
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 12.5,
+    "base": [
+     43,
+     1981.5,
+     82
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "HY-02-SIDE.2"
+    ],
+    "name": "HY-02-SIDE.2 hyllehull 44"
+   }
+  },
+  {
+   "command": "solid.pattern.rectangular",
+   "params": {
+    "features": [
+     "HY-02-SIDE.2 hyllehull 44"
+    ],
+    "name": "HY-02-SIDE.2 hyllehull 44 rader",
+    "dir1": [
+     0,
+     0,
+     1
+    ],
+    "count1": 58,
+    "spacing1": 32,
+    "dir2": [
+     1,
+     0,
+     0
+    ],
+    "count2": 2,
+    "spacing2": 270
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3440,
+     2382,
+     100
+    ],
+    "length": 554,
+    "width": 18,
+    "height": 770,
+    "name": "UK-01-SIDE.1",
+    "body_name": "UK-01-SIDE.1",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3440,
+     1800,
+     100
+    ],
+    "length": 554,
+    "width": 18,
+    "height": 770,
+    "name": "UK-01-SIDE.2",
+    "body_name": "UK-01-SIDE.2",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3440,
+     1818,
+     100
+    ],
+    "length": 554,
+    "width": 564,
+    "height": 18,
+    "name": "UK-01-BUNN",
+    "body_name": "UK-01-BUNN",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3440,
+     1818,
+     852
+    ],
+    "length": 100,
+    "width": 564,
+    "height": 18,
+    "name": "UK-01-REKKE.1",
+    "body_name": "UK-01-REKKE.1",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3894,
+     1818,
+     852
+    ],
+    "length": 100,
+    "width": 564,
+    "height": 18,
+    "name": "UK-01-REKKE.2",
+    "body_name": "UK-01-REKKE.2",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3994,
+     1800,
+     100
+    ],
+    "length": 6,
+    "width": 600,
+    "height": 770,
+    "name": "UK-01-BAK",
+    "body_name": "UK-01-BAK",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3490,
+     1800,
+     0
+    ],
+    "length": 18,
+    "width": 600,
+    "height": 98,
+    "name": "UK-01-SOKKEL",
+    "body_name": "UK-01-SOKKEL",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3460,
+     1819,
+     476
+    ],
+    "length": 534,
+    "width": 562,
+    "height": 18,
+    "name": "UK-01-HYLLE",
+    "body_name": "UK-01-HYLLE",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3420,
+     1801.5,
+     101.5
+    ],
+    "length": 18,
+    "width": 597,
+    "height": 767,
+    "name": "UK-01-DOR",
+    "body_name": "UK-01-DOR",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3400,
+     1800,
+     870
+    ],
+    "length": 600,
+    "width": 600,
+    "height": 30,
+    "name": "UK-01-BENK",
+    "body_name": "UK-01-BENK",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3957,
+     2400.5,
+     109
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-SIDE.1"
+    ],
+    "name": "UK-01-SIDE.1 konfirmat 45"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3957,
+     2382.5,
+     109
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-BUNN"
+    ],
+    "name": "UK-01-BUNN konfirmat-forboring 46"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3717,
+     2400.5,
+     109
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-SIDE.1"
+    ],
+    "name": "UK-01-SIDE.1 konfirmat 47"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3717,
+     2382.5,
+     109
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-BUNN"
+    ],
+    "name": "UK-01-BUNN konfirmat-forboring 48"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3477,
+     2400.5,
+     109
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-SIDE.1"
+    ],
+    "name": "UK-01-SIDE.1 konfirmat 49"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3477,
+     2382.5,
+     109
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-BUNN"
+    ],
+    "name": "UK-01-BUNN konfirmat-forboring 50"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3515,
+     2400.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-SIDE.1"
+    ],
+    "name": "UK-01-SIDE.1 konfirmat 51"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3515,
+     2382.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-REKKE.1"
+    ],
+    "name": "UK-01-REKKE.1 konfirmat-forboring 52"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3465,
+     2400.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-SIDE.1"
+    ],
+    "name": "UK-01-SIDE.1 konfirmat 53"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3465,
+     2382.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-REKKE.1"
+    ],
+    "name": "UK-01-REKKE.1 konfirmat-forboring 54"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3969,
+     2400.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-SIDE.1"
+    ],
+    "name": "UK-01-SIDE.1 konfirmat 55"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3969,
+     2382.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-REKKE.2"
+    ],
+    "name": "UK-01-REKKE.2 konfirmat-forboring 56"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3919,
+     2400.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-SIDE.1"
+    ],
+    "name": "UK-01-SIDE.1 konfirmat 57"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3919,
+     2382.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-REKKE.2"
+    ],
+    "name": "UK-01-REKKE.2 konfirmat-forboring 58"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3957,
+     1799.5,
+     109
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-SIDE.2"
+    ],
+    "name": "UK-01-SIDE.2 konfirmat 59"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3957,
+     1817.5,
+     109
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-BUNN"
+    ],
+    "name": "UK-01-BUNN konfirmat-forboring 60"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3717,
+     1799.5,
+     109
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-SIDE.2"
+    ],
+    "name": "UK-01-SIDE.2 konfirmat 61"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3717,
+     1817.5,
+     109
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-BUNN"
+    ],
+    "name": "UK-01-BUNN konfirmat-forboring 62"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3477,
+     1799.5,
+     109
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-SIDE.2"
+    ],
+    "name": "UK-01-SIDE.2 konfirmat 63"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3477,
+     1817.5,
+     109
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-BUNN"
+    ],
+    "name": "UK-01-BUNN konfirmat-forboring 64"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3515,
+     1799.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-SIDE.2"
+    ],
+    "name": "UK-01-SIDE.2 konfirmat 65"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3515,
+     1817.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-REKKE.1"
+    ],
+    "name": "UK-01-REKKE.1 konfirmat-forboring 66"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3465,
+     1799.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-SIDE.2"
+    ],
+    "name": "UK-01-SIDE.2 konfirmat 67"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3465,
+     1817.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-REKKE.1"
+    ],
+    "name": "UK-01-REKKE.1 konfirmat-forboring 68"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3969,
+     1799.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-SIDE.2"
+    ],
+    "name": "UK-01-SIDE.2 konfirmat 69"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3969,
+     1817.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-REKKE.2"
+    ],
+    "name": "UK-01-REKKE.2 konfirmat-forboring 70"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3919,
+     1799.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-SIDE.2"
+    ],
+    "name": "UK-01-SIDE.2 konfirmat 71"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3919,
+     1817.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-REKKE.2"
+    ],
+    "name": "UK-01-REKKE.2 konfirmat-forboring 72"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 12.5,
+    "base": [
+     3957,
+     2381.5,
+     182
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-SIDE.1"
+    ],
+    "name": "UK-01-SIDE.1 hyllehull 73"
+   }
+  },
+  {
+   "command": "solid.pattern.rectangular",
+   "params": {
+    "features": [
+     "UK-01-SIDE.1 hyllehull 73"
+    ],
+    "name": "UK-01-SIDE.1 hyllehull 73 rader",
+    "dir1": [
+     0,
+     0,
+     1
+    ],
+    "count1": 19,
+    "spacing1": 32,
+    "dir2": [
+     -1,
+     0,
+     0
+    ],
+    "count2": 2,
+    "spacing2": 480
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 12.5,
+    "base": [
+     3957,
+     1818.5,
+     182
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-SIDE.2"
+    ],
+    "name": "UK-01-SIDE.2 hyllehull 74"
+   }
+  },
+  {
+   "command": "solid.pattern.rectangular",
+   "params": {
+    "features": [
+     "UK-01-SIDE.2 hyllehull 74"
+    ],
+    "name": "UK-01-SIDE.2 hyllehull 74 rader",
+    "dir1": [
+     0,
+     0,
+     1
+    ],
+    "count1": 19,
+    "spacing1": 32,
+    "dir2": [
+     -1,
+     0,
+     0
+    ],
+    "count2": 2,
+    "spacing2": 480
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 35,
+    "height": 13,
+    "base": [
+     3438.5,
+     2376,
+     201.5
+    ],
+    "axis": [
+     -1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-DOR"
+    ],
+    "name": "UK-01-DOR hengselkopp 75"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 35,
+    "height": 13,
+    "base": [
+     3438.5,
+     2376,
+     768.5
+    ],
+    "axis": [
+     -1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-DOR"
+    ],
+    "name": "UK-01-DOR hengselkopp 76"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 19,
+    "base": [
+     3438.5,
+     1841.5,
+     808.5
+    ],
+    "axis": [
+     -1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-DOR"
+    ],
+    "name": "UK-01-DOR knott 77"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3440,
+     1782,
+     100
+    ],
+    "length": 554,
+    "width": 18,
+    "height": 770,
+    "name": "UK-02-SIDE.1",
+    "body_name": "UK-02-SIDE.1",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3440,
+     1200,
+     100
+    ],
+    "length": 554,
+    "width": 18,
+    "height": 770,
+    "name": "UK-02-SIDE.2",
+    "body_name": "UK-02-SIDE.2",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3440,
+     1218,
+     100
+    ],
+    "length": 554,
+    "width": 564,
+    "height": 18,
+    "name": "UK-02-BUNN",
+    "body_name": "UK-02-BUNN",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3440,
+     1218,
+     852
+    ],
+    "length": 100,
+    "width": 564,
+    "height": 18,
+    "name": "UK-02-REKKE.1",
+    "body_name": "UK-02-REKKE.1",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3894,
+     1218,
+     852
+    ],
+    "length": 100,
+    "width": 564,
+    "height": 18,
+    "name": "UK-02-REKKE.2",
+    "body_name": "UK-02-REKKE.2",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3994,
+     1200,
+     100
+    ],
+    "length": 6,
+    "width": 600,
+    "height": 770,
+    "name": "UK-02-BAK",
+    "body_name": "UK-02-BAK",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3490,
+     1200,
+     0
+    ],
+    "length": 18,
+    "width": 600,
+    "height": 98,
+    "name": "UK-02-SOKKEL",
+    "body_name": "UK-02-SOKKEL",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3460,
+     1219,
+     476
+    ],
+    "length": 534,
+    "width": 562,
+    "height": 18,
+    "name": "UK-02-HYLLE",
+    "body_name": "UK-02-HYLLE",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3420,
+     1201.5,
+     101.5
+    ],
+    "length": 18,
+    "width": 597,
+    "height": 767,
+    "name": "UK-02-DOR",
+    "body_name": "UK-02-DOR",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3400,
+     1200,
+     870
+    ],
+    "length": 600,
+    "width": 600,
+    "height": 30,
+    "name": "UK-02-BENK",
+    "body_name": "UK-02-BENK",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3957,
+     1800.5,
+     109
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-SIDE.1"
+    ],
+    "name": "UK-02-SIDE.1 konfirmat 78"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3957,
+     1782.5,
+     109
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-BUNN"
+    ],
+    "name": "UK-02-BUNN konfirmat-forboring 79"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3717,
+     1800.5,
+     109
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-SIDE.1"
+    ],
+    "name": "UK-02-SIDE.1 konfirmat 80"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3717,
+     1782.5,
+     109
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-BUNN"
+    ],
+    "name": "UK-02-BUNN konfirmat-forboring 81"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3477,
+     1800.5,
+     109
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-SIDE.1"
+    ],
+    "name": "UK-02-SIDE.1 konfirmat 82"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3477,
+     1782.5,
+     109
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-BUNN"
+    ],
+    "name": "UK-02-BUNN konfirmat-forboring 83"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3515,
+     1800.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-SIDE.1"
+    ],
+    "name": "UK-02-SIDE.1 konfirmat 84"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3515,
+     1782.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-REKKE.1"
+    ],
+    "name": "UK-02-REKKE.1 konfirmat-forboring 85"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3465,
+     1800.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-SIDE.1"
+    ],
+    "name": "UK-02-SIDE.1 konfirmat 86"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3465,
+     1782.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-REKKE.1"
+    ],
+    "name": "UK-02-REKKE.1 konfirmat-forboring 87"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3969,
+     1800.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-SIDE.1"
+    ],
+    "name": "UK-02-SIDE.1 konfirmat 88"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3969,
+     1782.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-REKKE.2"
+    ],
+    "name": "UK-02-REKKE.2 konfirmat-forboring 89"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3919,
+     1800.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-SIDE.1"
+    ],
+    "name": "UK-02-SIDE.1 konfirmat 90"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3919,
+     1782.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-REKKE.2"
+    ],
+    "name": "UK-02-REKKE.2 konfirmat-forboring 91"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3957,
+     1199.5,
+     109
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-SIDE.2"
+    ],
+    "name": "UK-02-SIDE.2 konfirmat 92"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3957,
+     1217.5,
+     109
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-BUNN"
+    ],
+    "name": "UK-02-BUNN konfirmat-forboring 93"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3717,
+     1199.5,
+     109
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-SIDE.2"
+    ],
+    "name": "UK-02-SIDE.2 konfirmat 94"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3717,
+     1217.5,
+     109
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-BUNN"
+    ],
+    "name": "UK-02-BUNN konfirmat-forboring 95"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3477,
+     1199.5,
+     109
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-SIDE.2"
+    ],
+    "name": "UK-02-SIDE.2 konfirmat 96"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3477,
+     1217.5,
+     109
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-BUNN"
+    ],
+    "name": "UK-02-BUNN konfirmat-forboring 97"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3515,
+     1199.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-SIDE.2"
+    ],
+    "name": "UK-02-SIDE.2 konfirmat 98"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3515,
+     1217.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-REKKE.1"
+    ],
+    "name": "UK-02-REKKE.1 konfirmat-forboring 99"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3465,
+     1199.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-SIDE.2"
+    ],
+    "name": "UK-02-SIDE.2 konfirmat 100"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3465,
+     1217.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-REKKE.1"
+    ],
+    "name": "UK-02-REKKE.1 konfirmat-forboring 101"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3969,
+     1199.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-SIDE.2"
+    ],
+    "name": "UK-02-SIDE.2 konfirmat 102"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3969,
+     1217.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-REKKE.2"
+    ],
+    "name": "UK-02-REKKE.2 konfirmat-forboring 103"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3919,
+     1199.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-SIDE.2"
+    ],
+    "name": "UK-02-SIDE.2 konfirmat 104"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3919,
+     1217.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-REKKE.2"
+    ],
+    "name": "UK-02-REKKE.2 konfirmat-forboring 105"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 12.5,
+    "base": [
+     3957,
+     1781.5,
+     182
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-SIDE.1"
+    ],
+    "name": "UK-02-SIDE.1 hyllehull 106"
+   }
+  },
+  {
+   "command": "solid.pattern.rectangular",
+   "params": {
+    "features": [
+     "UK-02-SIDE.1 hyllehull 106"
+    ],
+    "name": "UK-02-SIDE.1 hyllehull 106 rader",
+    "dir1": [
+     0,
+     0,
+     1
+    ],
+    "count1": 19,
+    "spacing1": 32,
+    "dir2": [
+     -1,
+     0,
+     0
+    ],
+    "count2": 2,
+    "spacing2": 480
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 12.5,
+    "base": [
+     3957,
+     1218.5,
+     182
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-SIDE.2"
+    ],
+    "name": "UK-02-SIDE.2 hyllehull 107"
+   }
+  },
+  {
+   "command": "solid.pattern.rectangular",
+   "params": {
+    "features": [
+     "UK-02-SIDE.2 hyllehull 107"
+    ],
+    "name": "UK-02-SIDE.2 hyllehull 107 rader",
+    "dir1": [
+     0,
+     0,
+     1
+    ],
+    "count1": 19,
+    "spacing1": 32,
+    "dir2": [
+     -1,
+     0,
+     0
+    ],
+    "count2": 2,
+    "spacing2": 480
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 35,
+    "height": 13,
+    "base": [
+     3438.5,
+     1776,
+     201.5
+    ],
+    "axis": [
+     -1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-DOR"
+    ],
+    "name": "UK-02-DOR hengselkopp 108"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 35,
+    "height": 13,
+    "base": [
+     3438.5,
+     1776,
+     768.5
+    ],
+    "axis": [
+     -1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-DOR"
+    ],
+    "name": "UK-02-DOR hengselkopp 109"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 19,
+    "base": [
+     3438.5,
+     1241.5,
+     808.5
+    ],
+    "axis": [
+     -1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-DOR"
+    ],
+    "name": "UK-02-DOR knott 110"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3440,
+     1182,
+     100
+    ],
+    "length": 554,
+    "width": 18,
+    "height": 770,
+    "name": "UK-03-SIDE.1",
+    "body_name": "UK-03-SIDE.1",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3440,
+     600,
+     100
+    ],
+    "length": 554,
+    "width": 18,
+    "height": 770,
+    "name": "UK-03-SIDE.2",
+    "body_name": "UK-03-SIDE.2",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3440,
+     618,
+     100
+    ],
+    "length": 554,
+    "width": 564,
+    "height": 18,
+    "name": "UK-03-BUNN",
+    "body_name": "UK-03-BUNN",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3440,
+     618,
+     852
+    ],
+    "length": 100,
+    "width": 564,
+    "height": 18,
+    "name": "UK-03-REKKE.1",
+    "body_name": "UK-03-REKKE.1",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3894,
+     618,
+     852
+    ],
+    "length": 100,
+    "width": 564,
+    "height": 18,
+    "name": "UK-03-REKKE.2",
+    "body_name": "UK-03-REKKE.2",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3994,
+     600,
+     100
+    ],
+    "length": 6,
+    "width": 600,
+    "height": 770,
+    "name": "UK-03-BAK",
+    "body_name": "UK-03-BAK",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3490,
+     600,
+     0
+    ],
+    "length": 18,
+    "width": 600,
+    "height": 98,
+    "name": "UK-03-SOKKEL",
+    "body_name": "UK-03-SOKKEL",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3460,
+     619,
+     476
+    ],
+    "length": 534,
+    "width": 562,
+    "height": 18,
+    "name": "UK-03-HYLLE",
+    "body_name": "UK-03-HYLLE",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3420,
+     601.5,
+     101.5
+    ],
+    "length": 18,
+    "width": 597,
+    "height": 767,
+    "name": "UK-03-DOR",
+    "body_name": "UK-03-DOR",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3400,
+     600,
+     870
+    ],
+    "length": 600,
+    "width": 600,
+    "height": 30,
+    "name": "UK-03-BENK",
+    "body_name": "UK-03-BENK",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3957,
+     1200.5,
+     109
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-SIDE.1"
+    ],
+    "name": "UK-03-SIDE.1 konfirmat 111"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3957,
+     1182.5,
+     109
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-BUNN"
+    ],
+    "name": "UK-03-BUNN konfirmat-forboring 112"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3717,
+     1200.5,
+     109
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-SIDE.1"
+    ],
+    "name": "UK-03-SIDE.1 konfirmat 113"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3717,
+     1182.5,
+     109
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-BUNN"
+    ],
+    "name": "UK-03-BUNN konfirmat-forboring 114"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3477,
+     1200.5,
+     109
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-SIDE.1"
+    ],
+    "name": "UK-03-SIDE.1 konfirmat 115"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3477,
+     1182.5,
+     109
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-BUNN"
+    ],
+    "name": "UK-03-BUNN konfirmat-forboring 116"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3515,
+     1200.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-SIDE.1"
+    ],
+    "name": "UK-03-SIDE.1 konfirmat 117"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3515,
+     1182.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-REKKE.1"
+    ],
+    "name": "UK-03-REKKE.1 konfirmat-forboring 118"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3465,
+     1200.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-SIDE.1"
+    ],
+    "name": "UK-03-SIDE.1 konfirmat 119"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3465,
+     1182.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-REKKE.1"
+    ],
+    "name": "UK-03-REKKE.1 konfirmat-forboring 120"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3969,
+     1200.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-SIDE.1"
+    ],
+    "name": "UK-03-SIDE.1 konfirmat 121"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3969,
+     1182.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-REKKE.2"
+    ],
+    "name": "UK-03-REKKE.2 konfirmat-forboring 122"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3919,
+     1200.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-SIDE.1"
+    ],
+    "name": "UK-03-SIDE.1 konfirmat 123"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3919,
+     1182.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-REKKE.2"
+    ],
+    "name": "UK-03-REKKE.2 konfirmat-forboring 124"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3957,
+     599.5,
+     109
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-SIDE.2"
+    ],
+    "name": "UK-03-SIDE.2 konfirmat 125"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3957,
+     617.5,
+     109
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-BUNN"
+    ],
+    "name": "UK-03-BUNN konfirmat-forboring 126"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3717,
+     599.5,
+     109
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-SIDE.2"
+    ],
+    "name": "UK-03-SIDE.2 konfirmat 127"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3717,
+     617.5,
+     109
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-BUNN"
+    ],
+    "name": "UK-03-BUNN konfirmat-forboring 128"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3477,
+     599.5,
+     109
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-SIDE.2"
+    ],
+    "name": "UK-03-SIDE.2 konfirmat 129"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3477,
+     617.5,
+     109
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-BUNN"
+    ],
+    "name": "UK-03-BUNN konfirmat-forboring 130"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3515,
+     599.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-SIDE.2"
+    ],
+    "name": "UK-03-SIDE.2 konfirmat 131"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3515,
+     617.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-REKKE.1"
+    ],
+    "name": "UK-03-REKKE.1 konfirmat-forboring 132"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3465,
+     599.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-SIDE.2"
+    ],
+    "name": "UK-03-SIDE.2 konfirmat 133"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3465,
+     617.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-REKKE.1"
+    ],
+    "name": "UK-03-REKKE.1 konfirmat-forboring 134"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3969,
+     599.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-SIDE.2"
+    ],
+    "name": "UK-03-SIDE.2 konfirmat 135"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3969,
+     617.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-REKKE.2"
+    ],
+    "name": "UK-03-REKKE.2 konfirmat-forboring 136"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3919,
+     599.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-SIDE.2"
+    ],
+    "name": "UK-03-SIDE.2 konfirmat 137"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3919,
+     617.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-REKKE.2"
+    ],
+    "name": "UK-03-REKKE.2 konfirmat-forboring 138"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 12.5,
+    "base": [
+     3957,
+     1181.5,
+     182
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-SIDE.1"
+    ],
+    "name": "UK-03-SIDE.1 hyllehull 139"
+   }
+  },
+  {
+   "command": "solid.pattern.rectangular",
+   "params": {
+    "features": [
+     "UK-03-SIDE.1 hyllehull 139"
+    ],
+    "name": "UK-03-SIDE.1 hyllehull 139 rader",
+    "dir1": [
+     0,
+     0,
+     1
+    ],
+    "count1": 19,
+    "spacing1": 32,
+    "dir2": [
+     -1,
+     0,
+     0
+    ],
+    "count2": 2,
+    "spacing2": 480
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 12.5,
+    "base": [
+     3957,
+     618.5,
+     182
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-SIDE.2"
+    ],
+    "name": "UK-03-SIDE.2 hyllehull 140"
+   }
+  },
+  {
+   "command": "solid.pattern.rectangular",
+   "params": {
+    "features": [
+     "UK-03-SIDE.2 hyllehull 140"
+    ],
+    "name": "UK-03-SIDE.2 hyllehull 140 rader",
+    "dir1": [
+     0,
+     0,
+     1
+    ],
+    "count1": 19,
+    "spacing1": 32,
+    "dir2": [
+     -1,
+     0,
+     0
+    ],
+    "count2": 2,
+    "spacing2": 480
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 35,
+    "height": 13,
+    "base": [
+     3438.5,
+     1176,
+     201.5
+    ],
+    "axis": [
+     -1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-DOR"
+    ],
+    "name": "UK-03-DOR hengselkopp 141"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 35,
+    "height": 13,
+    "base": [
+     3438.5,
+     1176,
+     768.5
+    ],
+    "axis": [
+     -1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-DOR"
+    ],
+    "name": "UK-03-DOR hengselkopp 142"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 19,
+    "base": [
+     3438.5,
+     641.5,
+     808.5
+    ],
+    "axis": [
+     -1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-DOR"
+    ],
+    "name": "UK-03-DOR knott 143"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3440,
+     582,
+     100
+    ],
+    "length": 554,
+    "width": 18,
+    "height": 770,
+    "name": "UK-04-SIDE.1",
+    "body_name": "UK-04-SIDE.1",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3440,
+     0,
+     100
+    ],
+    "length": 554,
+    "width": 18,
+    "height": 770,
+    "name": "UK-04-SIDE.2",
+    "body_name": "UK-04-SIDE.2",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3440,
+     18,
+     100
+    ],
+    "length": 554,
+    "width": 564,
+    "height": 18,
+    "name": "UK-04-BUNN",
+    "body_name": "UK-04-BUNN",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3440,
+     18,
+     852
+    ],
+    "length": 100,
+    "width": 564,
+    "height": 18,
+    "name": "UK-04-REKKE.1",
+    "body_name": "UK-04-REKKE.1",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3894,
+     18,
+     852
+    ],
+    "length": 100,
+    "width": 564,
+    "height": 18,
+    "name": "UK-04-REKKE.2",
+    "body_name": "UK-04-REKKE.2",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3994,
+     0,
+     100
+    ],
+    "length": 6,
+    "width": 600,
+    "height": 770,
+    "name": "UK-04-BAK",
+    "body_name": "UK-04-BAK",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3490,
+     0,
+     0
+    ],
+    "length": 18,
+    "width": 600,
+    "height": 98,
+    "name": "UK-04-SOKKEL",
+    "body_name": "UK-04-SOKKEL",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3460,
+     19,
+     476
+    ],
+    "length": 534,
+    "width": 562,
+    "height": 18,
+    "name": "UK-04-HYLLE",
+    "body_name": "UK-04-HYLLE",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3420,
+     1.5,
+     101.5
+    ],
+    "length": 18,
+    "width": 597,
+    "height": 767,
+    "name": "UK-04-DOR",
+    "body_name": "UK-04-DOR",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     3400,
+     0,
+     870
+    ],
+    "length": 600,
+    "width": 600,
+    "height": 30,
+    "name": "UK-04-BENK",
+    "body_name": "UK-04-BENK",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3957,
+     600.5,
+     109
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-SIDE.1"
+    ],
+    "name": "UK-04-SIDE.1 konfirmat 144"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3957,
+     582.5,
+     109
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-BUNN"
+    ],
+    "name": "UK-04-BUNN konfirmat-forboring 145"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3717,
+     600.5,
+     109
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-SIDE.1"
+    ],
+    "name": "UK-04-SIDE.1 konfirmat 146"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3717,
+     582.5,
+     109
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-BUNN"
+    ],
+    "name": "UK-04-BUNN konfirmat-forboring 147"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3477,
+     600.5,
+     109
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-SIDE.1"
+    ],
+    "name": "UK-04-SIDE.1 konfirmat 148"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3477,
+     582.5,
+     109
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-BUNN"
+    ],
+    "name": "UK-04-BUNN konfirmat-forboring 149"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3515,
+     600.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-SIDE.1"
+    ],
+    "name": "UK-04-SIDE.1 konfirmat 150"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3515,
+     582.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-REKKE.1"
+    ],
+    "name": "UK-04-REKKE.1 konfirmat-forboring 151"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3465,
+     600.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-SIDE.1"
+    ],
+    "name": "UK-04-SIDE.1 konfirmat 152"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3465,
+     582.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-REKKE.1"
+    ],
+    "name": "UK-04-REKKE.1 konfirmat-forboring 153"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3969,
+     600.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-SIDE.1"
+    ],
+    "name": "UK-04-SIDE.1 konfirmat 154"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3969,
+     582.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-REKKE.2"
+    ],
+    "name": "UK-04-REKKE.2 konfirmat-forboring 155"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3919,
+     600.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-SIDE.1"
+    ],
+    "name": "UK-04-SIDE.1 konfirmat 156"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3919,
+     582.5,
+     861
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-REKKE.2"
+    ],
+    "name": "UK-04-REKKE.2 konfirmat-forboring 157"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3957,
+     -0.5,
+     109
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-SIDE.2"
+    ],
+    "name": "UK-04-SIDE.2 konfirmat 158"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3957,
+     17.5,
+     109
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-BUNN"
+    ],
+    "name": "UK-04-BUNN konfirmat-forboring 159"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3717,
+     -0.5,
+     109
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-SIDE.2"
+    ],
+    "name": "UK-04-SIDE.2 konfirmat 160"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3717,
+     17.5,
+     109
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-BUNN"
+    ],
+    "name": "UK-04-BUNN konfirmat-forboring 161"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3477,
+     -0.5,
+     109
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-SIDE.2"
+    ],
+    "name": "UK-04-SIDE.2 konfirmat 162"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3477,
+     17.5,
+     109
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-BUNN"
+    ],
+    "name": "UK-04-BUNN konfirmat-forboring 163"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3515,
+     -0.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-SIDE.2"
+    ],
+    "name": "UK-04-SIDE.2 konfirmat 164"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3515,
+     17.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-REKKE.1"
+    ],
+    "name": "UK-04-REKKE.1 konfirmat-forboring 165"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3465,
+     -0.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-SIDE.2"
+    ],
+    "name": "UK-04-SIDE.2 konfirmat 166"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3465,
+     17.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-REKKE.1"
+    ],
+    "name": "UK-04-REKKE.1 konfirmat-forboring 167"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3969,
+     -0.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-SIDE.2"
+    ],
+    "name": "UK-04-SIDE.2 konfirmat 168"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3969,
+     17.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-REKKE.2"
+    ],
+    "name": "UK-04-REKKE.2 konfirmat-forboring 169"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 19,
+    "base": [
+     3919,
+     -0.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-SIDE.2"
+    ],
+    "name": "UK-04-SIDE.2 konfirmat 170"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 35.5,
+    "base": [
+     3919,
+     17.5,
+     861
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-REKKE.2"
+    ],
+    "name": "UK-04-REKKE.2 konfirmat-forboring 171"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 12.5,
+    "base": [
+     3957,
+     581.5,
+     182
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-SIDE.1"
+    ],
+    "name": "UK-04-SIDE.1 hyllehull 172"
+   }
+  },
+  {
+   "command": "solid.pattern.rectangular",
+   "params": {
+    "features": [
+     "UK-04-SIDE.1 hyllehull 172"
+    ],
+    "name": "UK-04-SIDE.1 hyllehull 172 rader",
+    "dir1": [
+     0,
+     0,
+     1
+    ],
+    "count1": 19,
+    "spacing1": 32,
+    "dir2": [
+     -1,
+     0,
+     0
+    ],
+    "count2": 2,
+    "spacing2": 480
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 12.5,
+    "base": [
+     3957,
+     18.5,
+     182
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-SIDE.2"
+    ],
+    "name": "UK-04-SIDE.2 hyllehull 173"
+   }
+  },
+  {
+   "command": "solid.pattern.rectangular",
+   "params": {
+    "features": [
+     "UK-04-SIDE.2 hyllehull 173"
+    ],
+    "name": "UK-04-SIDE.2 hyllehull 173 rader",
+    "dir1": [
+     0,
+     0,
+     1
+    ],
+    "count1": 19,
+    "spacing1": 32,
+    "dir2": [
+     -1,
+     0,
+     0
+    ],
+    "count2": 2,
+    "spacing2": 480
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 35,
+    "height": 13,
+    "base": [
+     3438.5,
+     576,
+     201.5
+    ],
+    "axis": [
+     -1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-DOR"
+    ],
+    "name": "UK-04-DOR hengselkopp 174"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 35,
+    "height": 13,
+    "base": [
+     3438.5,
+     576,
+     768.5
+    ],
+    "axis": [
+     -1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-DOR"
+    ],
+    "name": "UK-04-DOR hengselkopp 175"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 19,
+    "base": [
+     3438.5,
+     41.5,
+     808.5
+    ],
+    "axis": [
+     -1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-DOR"
+    ],
+    "name": "UK-04-DOR knott 176"
+   }
+  },
+  {
+   "command": "appearance.assign",
+   "params": {
+    "bodies": [
+     "ROM-VEGG-N",
+     "ROM-VEGG-S",
+     "ROM-VEGG-V",
+     "ROM-VEGG-Ø"
+    ],
+    "color": "#e8e4dc",
+    "opacity": 0.22
+   }
+  },
+  {
+   "command": "appearance.assign",
+   "params": {
+    "bodies": [
+     "ROM-GULV"
+    ],
+    "color": "#c9b08a"
+   }
+  },
+  {
+   "command": "appearance.assign",
+   "params": {
+    "bodies": [
+     "SB-01-GAVL.1",
+     "SB-01-GAVL.2",
+     "SB-01-TOPP",
+     "SB-01-RYGG",
+     "HY-01-SIDE.1",
+     "HY-01-SIDE.2",
+     "HY-01-TOPP",
+     "HY-01-BUNN",
+     "HY-01-HYLLE.1",
+     "HY-01-HYLLE.2",
+     "HY-01-HYLLE.3",
+     "HY-01-HYLLE.4",
+     "HY-02-SIDE.1",
+     "HY-02-SIDE.2",
+     "HY-02-TOPP",
+     "HY-02-BUNN",
+     "HY-02-HYLLE.1",
+     "HY-02-HYLLE.2",
+     "HY-02-HYLLE.3",
+     "HY-02-HYLLE.4",
+     "UK-01-SIDE.1",
+     "UK-01-SIDE.2",
+     "UK-01-BUNN",
+     "UK-01-REKKE.1",
+     "UK-01-REKKE.2",
+     "UK-01-SOKKEL",
+     "UK-01-HYLLE",
+     "UK-01-DOR",
+     "UK-02-SIDE.1",
+     "UK-02-SIDE.2",
+     "UK-02-BUNN",
+     "UK-02-REKKE.1",
+     "UK-02-REKKE.2",
+     "UK-02-SOKKEL",
+     "UK-02-HYLLE",
+     "UK-02-DOR",
+     "UK-03-SIDE.1",
+     "UK-03-SIDE.2",
+     "UK-03-BUNN",
+     "UK-03-REKKE.1",
+     "UK-03-REKKE.2",
+     "UK-03-SOKKEL",
+     "UK-03-HYLLE",
+     "UK-03-DOR",
+     "UK-04-SIDE.1",
+     "UK-04-SIDE.2",
+     "UK-04-BUNN",
+     "UK-04-REKKE.1",
+     "UK-04-REKKE.2",
+     "UK-04-SOKKEL",
+     "UK-04-HYLLE",
+     "UK-04-DOR"
+    ],
+    "color": "#f2f0eb"
+   }
+  },
+  {
+   "command": "appearance.assign",
+   "params": {
+    "bodies": [
+     "HY-01-BAK",
+     "HY-02-BAK",
+     "UK-01-BAK",
+     "UK-02-BAK",
+     "UK-03-BAK",
+     "UK-04-BAK"
+    ],
+    "color": "#dcd8cf"
+   }
+  },
+  {
+   "command": "appearance.assign",
+   "params": {
+    "bodies": [
+     "UK-01-BENK",
+     "UK-02-BENK",
+     "UK-03-BENK",
+     "UK-04-BENK"
+    ],
+    "color": "#9c8f7d"
+   }
+  }
+ ]
+}

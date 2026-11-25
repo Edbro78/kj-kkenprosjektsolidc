@@ -1,0 +1,14 @@
+# Avhengigheter og mellomfiler fra bygging
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Midlertidige kontrollfiler fra SolidCraft-kommandoene
+solidcraft/batches/**/_kontroll.json
+solidcraft/batches/**/_eval.json
+
+# Lokale innstillinger
+.claude/settings.local.json
+
+# SolidCraft sine låsefiler for åpne modeller
+.~*.lock

@@ -1,0 +1,4 @@
+﻿Del;Antall;STL;3MF;Materiale;Vekt per stk (g);Vekt totalt (g);Merknad
+Vinkelbeslag 40 mm;4;3d-print/vinkelbeslag.stl;3d-print/vinkelbeslag.3mf;PETG, 100 % fyll;11;44;Print stående på den lange kanten for sterkest hjørne
+Hyllebærer Ø5;48;3d-print/hyllebaerer.stl;3d-print/hyllebaerer.3mf;PETG, 100 % fyll;1,3;62;Print liggende på siden, tappen langs byggeplata
+Knott Ø30;4;3d-print/knott.stl;3d-print/knott.3mf;PETG, 100 % fyll;12,9;52;Print stående på den flate undersiden (halsen ned). Gjengeinnsats M4 presses inn med loddebolt

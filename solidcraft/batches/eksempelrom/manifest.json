@@ -1,0 +1,64 @@
+[
+  {
+    "file": "00-rom.json",
+    "title": "Rom",
+    "volume_mm3": 4356112000,
+    "bodies": 5
+  },
+  {
+    "file": "01-UK-01.json",
+    "title": "UK-01 Underskap",
+    "volume_mm3": 4403224409,
+    "bodies": 15,
+    "holes": 33,
+    "module_volume_mm3": 47112408.9,
+    "module_bodies": [
+      "UK-01-SIDE.1",
+      "UK-01-SIDE.2",
+      "UK-01-BUNN",
+      "UK-01-REKKE.1",
+      "UK-01-REKKE.2",
+      "UK-01-BAK",
+      "UK-01-SOKKEL",
+      "UK-01-HYLLE",
+      "UK-01-DOR",
+      "UK-01-BENK"
+    ]
+  },
+  {
+    "file": "hele-rommet.json",
+    "title": "Hele rommet med farger",
+    "volume_mm3": 4403224409,
+    "bodies": 15
+  },
+  {
+    "file": "eksplodert-UK-01.json",
+    "title": "Eksplodert UK-01 Underskap",
+    "volume_mm3": 47112409,
+    "bodies": 10,
+    "holes": 33
+  },
+  {
+    "file": "eksplodert-farger-UK-01.json",
+    "title": "Eksplodert Underskap UK-01 (UK-01)",
+    "volume_mm3": 47112408.9,
+    "bodies": 10,
+    "holes": 33
+  },
+  {
+    "file": "tillegg-knott.json",
+    "title": "Tillegg: knotthull",
+    "volume_mm3": 4403224409,
+    "bodies": 15,
+    "holes": 1,
+    "module_volume_mm3": -353.4
+  },
+  {
+    "file": "tillegg-knott-eksplodert-UK-01.json",
+    "title": "Tillegg: knotthull UK-01",
+    "volume_mm3": 0,
+    "bodies": 0,
+    "holes": 1,
+    "module_volume_mm3": -353.4
+  }
+]

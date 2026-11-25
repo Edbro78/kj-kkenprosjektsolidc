@@ -1,0 +1,244 @@
+{
+ "commands": [
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     -618.75,
+     -700,
+     -11.25
+    ],
+    "length": 25,
+    "width": 700,
+    "height": 715,
+    "name": "SB-01-GAVL.1",
+    "body_name": "SB-01-GAVL.1",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     1993.75,
+     -700,
+     -11.25
+    ],
+    "length": 25,
+    "width": 700,
+    "height": 715,
+    "name": "SB-01-GAVL.2",
+    "body_name": "SB-01-GAVL.2",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     0,
+     -700,
+     1036.75
+    ],
+    "length": 1400,
+    "width": 700,
+    "height": 25,
+    "name": "SB-01-TOPP",
+    "body_name": "SB-01-TOPP",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "corner": [
+     25,
+     164.75,
+     590.5
+    ],
+    "length": 1350,
+    "width": 25,
+    "height": 300,
+    "name": "SB-01-RYGG",
+    "body_name": "SB-01-RYGG",
+    "operation": "new"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 26,
+    "base": [
+     -619.25,
+     -72.5,
+     440.75
+    ],
+    "axis": [
+     1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "SB-01-GAVL.1"
+    ],
+    "name": "SB-01-GAVL.1 konfirmat 177"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 28.5,
+    "base": [
+     24.5,
+     177.25,
+     627.5
+    ],
+    "axis": [
+     1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "SB-01-RYGG"
+    ],
+    "name": "SB-01-RYGG konfirmat-forboring 178"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 26,
+    "base": [
+     -619.25,
+     -72.5,
+     666.75
+    ],
+    "axis": [
+     1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "SB-01-GAVL.1"
+    ],
+    "name": "SB-01-GAVL.1 konfirmat 179"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 28.5,
+    "base": [
+     24.5,
+     177.25,
+     853.5
+    ],
+    "axis": [
+     1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "SB-01-RYGG"
+    ],
+    "name": "SB-01-RYGG konfirmat-forboring 180"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 26,
+    "base": [
+     2019.25,
+     -72.5,
+     440.75
+    ],
+    "axis": [
+     -1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "SB-01-GAVL.2"
+    ],
+    "name": "SB-01-GAVL.2 konfirmat 181"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 28.5,
+    "base": [
+     1375.5,
+     177.25,
+     627.5
+    ],
+    "axis": [
+     -1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "SB-01-RYGG"
+    ],
+    "name": "SB-01-RYGG konfirmat-forboring 182"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7,
+    "height": 26,
+    "base": [
+     2019.25,
+     -72.5,
+     666.75
+    ],
+    "axis": [
+     -1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "SB-01-GAVL.2"
+    ],
+    "name": "SB-01-GAVL.2 konfirmat 183"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 28.5,
+    "base": [
+     1375.5,
+     177.25,
+     853.5
+    ],
+    "axis": [
+     -1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "SB-01-RYGG"
+    ],
+    "name": "SB-01-RYGG konfirmat-forboring 184"
+   }
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+[
+  {
+    "file": "00-rom.json",
+    "title": "Rom",
+    "volume_mm3": 4356112000,
+    "bodies": 5
+  },
+  {
+    "file": "01-SB-01.json",
+    "title": "SB-01 Skrivebord",
+    "volume_mm3": 4415755952,
+    "bodies": 9,
+    "holes": 8,
+    "module_volume_mm3": 59643952.4,
+    "module_bodies": [
+      "SB-01-GAVL.1",
+      "SB-01-GAVL.2",
+      "SB-01-TOPP",
+      "SB-01-RYGG"
+    ]
+  },
+  {
+    "file": "02-HY-01.json",
+    "title": "HY-01 Hylle",
+    "volume_mm3": 4477844201,
+    "bodies": 18,
+    "holes": 18,
+    "module_volume_mm3": 62088248.7,
+    "module_bodies": [
+      "HY-01-SIDE.1",
+      "HY-01-SIDE.2",
+      "HY-01-TOPP",
+      "HY-01-BUNN",
+      "HY-01-HYLLE.1",
+      "HY-01-HYLLE.2",
+      "HY-01-HYLLE.3",
+      "HY-01-HYLLE.4",
+      "HY-01-BAK"
+    ]
+  },
+  {
+    "file": "03-HY-02.json",
+    "title": "HY-02 Hylle",
+    "volume_mm3": 4539932450,
+    "bodies": 27,
+    "holes": 18,
+    "module_volume_mm3": 62088248.7,
+    "module_bodies": [
+      "HY-02-SIDE.1",
+      "HY-02-SIDE.2",
+      "HY-02-TOPP",
+      "HY-02-BUNN",
+      "HY-02-HYLLE.1",
+      "HY-02-HYLLE.2",
+      "HY-02-HYLLE.3",
+      "HY-02-HYLLE.4",
+      "HY-02-BAK"
+    ]
+  },
+  {
+    "file": "04-UK-01.json",
+    "title": "UK-01 Underskap",
+    "volume_mm3": 4591156831,
+    "bodies": 37,
+    "holes": 33,
+    "module_volume_mm3": 51224381.4,
+    "module_bodies": [
+      "UK-01-SIDE.1",
+      "UK-01-SIDE.2",
+      "UK-01-BUNN",
+      "UK-01-REKKE.1",
+      "UK-01-REKKE.2",
+      "UK-01-BAK",
+      "UK-01-SOKKEL",
+      "UK-01-HYLLE",
+      "UK-01-DOR",
+      "UK-01-BENK"
+    ]
+  },
+  {
+    "file": "05-UK-02.json",
+    "title": "UK-02 Underskap",
+    "volume_mm3": 4642381213,
+    "bodies": 47,
+    "holes": 33,
+    "module_volume_mm3": 51224381.4,
+    "module_bodies": [
+      "UK-02-SIDE.1",
+      "UK-02-SIDE.2",
+      "UK-02-BUNN",
+      "UK-02-REKKE.1",
+      "UK-02-REKKE.2",
+      "UK-02-BAK",
+      "UK-02-SOKKEL",
+      "UK-02-HYLLE",
+      "UK-02-DOR",
+      "UK-02-BENK"
+    ]
+  },
+  {
+    "file": "06-UK-03.json",
+    "title": "UK-03 Underskap",
+    "volume_mm3": 4693605594,
+    "bodies": 57,
+    "holes": 33,
+    "module_volume_mm3": 51224381.4,
+    "module_bodies": [
+      "UK-03-SIDE.1",
+      "UK-03-SIDE.2",
+      "UK-03-BUNN",
+      "UK-03-REKKE.1",
+      "UK-03-REKKE.2",
+      "UK-03-BAK",
+      "UK-03-SOKKEL",
+      "UK-03-HYLLE",
+      "UK-03-DOR",
+      "UK-03-BENK"
+    ]
+  },
+  {
+    "file": "07-UK-04.json",
+    "title": "UK-04 Underskap",
+    "volume_mm3": 4744829976,
+    "bodies": 67,
+    "holes": 33,
+    "module_volume_mm3": 51224381.4,
+    "module_bodies": [
+      "UK-04-SIDE.1",
+      "UK-04-SIDE.2",
+      "UK-04-BUNN",
+      "UK-04-REKKE.1",
+      "UK-04-REKKE.2",
+      "UK-04-BAK",
+      "UK-04-SOKKEL",
+      "UK-04-HYLLE",
+      "UK-04-DOR",
+      "UK-04-BENK"
+    ]
+  },
+  {
+    "file": "hele-rommet.json",
+    "title": "Hele rommet med farger",
+    "volume_mm3": 4744829976,
+    "bodies": 67
+  },
+  {
+    "file": "eksplodert-SB-01.json",
+    "title": "Eksplodert SB-01 Skrivebord",
+    "volume_mm3": 59643952,
+    "bodies": 4,
+    "holes": 8
+  },
+  {
+    "file": "eksplodert-HY-01.json",
+    "title": "Eksplodert HY-01 Hylle",
+    "volume_mm3": 62088249,
+    "bodies": 9,
+    "holes": 18
+  },
+  {
+    "file": "eksplodert-UK-01.json",
+    "title": "Eksplodert UK-01 Underskap",
+    "volume_mm3": 51224381,
+    "bodies": 10,
+    "holes": 33
+  },
+  {
+    "file": "tillegg-knott.json",
+    "title": "Tillegg: knotthull",
+    "volume_mm3": 4744829976,
+    "bodies": 67,
+    "holes": 4,
+    "module_volume_mm3": -1413.7
+  },
+  {
+    "file": "tillegg-knott-eksplodert-UK-01.json",
+    "title": "Tillegg: knotthull UK-01",
+    "volume_mm3": 0,
+    "bodies": 0,
+    "holes": 1,
+    "module_volume_mm3": -353.4
+  }
+]

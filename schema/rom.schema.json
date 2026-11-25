@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "rom/1",
+  "title": "Rom",
+  "description": "Et rektangulært rom. Alle mål i mm. x mot øst, y mot sør, z opp. Origo i nordvestre innerhjørne.",
+  "type": "object",
+  "required": ["schema", "name", "width", "depth", "height", "wallThickness", "openings"],
+  "properties": {
+    "schema": { "const": "rom/1" },
+    "name": { "type": "string" },
+    "width": { "type": "number", "minimum": 500, "description": "Innvendig mål øst-vest" },
+    "depth": { "type": "number", "minimum": 500, "description": "Innvendig mål nord-sør" },
+    "height": { "type": "number", "minimum": 1800, "description": "Takhøyde" },
+    "wallThickness": { "type": "number", "minimum": 0 },
+    "openings": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/opening" }
+    }
+  },
+  "$defs": {
+    "opening": {
+      "type": "object",
+      "required": ["id", "kind", "wall", "offset", "width", "height"],
+      "properties": {
+        "id": { "type": "string" },
+        "kind": { "enum": ["door", "window"] },
+        "wall": { "enum": ["N", "E", "S", "W"] },
+        "offset": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Avstand langs veggen. N/S: fra vest-hjørnet. E/W: fra nord-hjørnet."
+        },
+        "width": { "type": "number", "minimum": 1 },
+        "height": { "type": "number", "minimum": 1 },
+        "sill": { "type": "number", "minimum": 0, "description": "Brystningshøyde, kun vindu" },
+        "hinge": { "enum": ["start", "end"], "description": "Hengselside, kun dør. Døren slår inn i rommet." }
+      }
+    }
+  }
+}

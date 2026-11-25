@@ -1,0 +1,26 @@
+{
+ "commands": [
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 19,
+    "base": [
+     558.5,
+     -805.4,
+     862.5
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-DOR"
+    ],
+    "name": "UK-02-DOR knott 345"
+   }
+  }
+ ]
+}

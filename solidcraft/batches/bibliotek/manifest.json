@@ -1,0 +1,218 @@
+[
+  {
+    "file": "solidcraft/bibliotek/Underskap 400 - 1 dør.sc",
+    "batch": "01-underskap.json",
+    "volume_mm3": 38949581.4,
+    "bodies": 10,
+    "bbox": {
+      "min": [
+        0,
+        -600,
+        0
+      ],
+      "max": [
+        400,
+        0,
+        900
+      ]
+    }
+  },
+  {
+    "file": "solidcraft/bibliotek/Underskap 600 - 1 dør.sc",
+    "batch": "02-underskap.json",
+    "volume_mm3": 51224381.4,
+    "bodies": 10,
+    "bbox": {
+      "min": [
+        0,
+        -600,
+        0
+      ],
+      "max": [
+        600,
+        0,
+        900
+      ]
+    }
+  },
+  {
+    "file": "solidcraft/bibliotek/Underskap 800 - 2 dører.sc",
+    "batch": "03-underskap.json",
+    "volume_mm3": 63433357.2,
+    "bodies": 11,
+    "bbox": {
+      "min": [
+        0,
+        -600,
+        0
+      ],
+      "max": [
+        800,
+        0,
+        900
+      ]
+    }
+  },
+  {
+    "file": "solidcraft/bibliotek/Underskap 1000 - 2 dører.sc",
+    "batch": "04-underskap.json",
+    "volume_mm3": 75708157.2,
+    "bodies": 11,
+    "bbox": {
+      "min": [
+        0,
+        -600,
+        0
+      ],
+      "max": [
+        1000,
+        0,
+        900
+      ]
+    }
+  },
+  {
+    "file": "solidcraft/bibliotek/Underskap 600 - åpent.sc",
+    "batch": "05-underskap.json",
+    "volume_mm3": 49570629.7,
+    "bodies": 10,
+    "bbox": {
+      "min": [
+        0,
+        -600,
+        0
+      ],
+      "max": [
+        600,
+        0,
+        900
+      ]
+    }
+  },
+  {
+    "file": "solidcraft/bibliotek/Hylle 400 x 2000.sc",
+    "batch": "06-hylle.json",
+    "volume_mm3": 42715448.7,
+    "bodies": 9,
+    "bbox": {
+      "min": [
+        0,
+        -350,
+        0
+      ],
+      "max": [
+        400,
+        0,
+        2000
+      ]
+    }
+  },
+  {
+    "file": "solidcraft/bibliotek/Hylle 800 x 2000.sc",
+    "batch": "07-hylle.json",
+    "volume_mm3": 62088248.7,
+    "bodies": 9,
+    "bbox": {
+      "min": [
+        0,
+        -350,
+        0
+      ],
+      "max": [
+        800,
+        0,
+        2000
+      ]
+    }
+  },
+  {
+    "file": "solidcraft/bibliotek/Hylle 800 x 1200 lav.sc",
+    "batch": "08-hylle.json",
+    "volume_mm3": 39202322.7,
+    "bodies": 7,
+    "bbox": {
+      "min": [
+        0,
+        -350,
+        0
+      ],
+      "max": [
+        800,
+        0,
+        1200
+      ]
+    }
+  },
+  {
+    "file": "solidcraft/bibliotek/Hylle 1000 x 800 benk.sc",
+    "batch": "09-hylle.json",
+    "volume_mm3": 32399030.9,
+    "bodies": 6,
+    "bbox": {
+      "min": [
+        0,
+        -350,
+        0
+      ],
+      "max": [
+        1000,
+        0,
+        800
+      ]
+    }
+  },
+  {
+    "file": "solidcraft/bibliotek/Skrivebord 1200.sc",
+    "batch": "10-skrivebord.json",
+    "volume_mm3": 48068952.4,
+    "bodies": 4,
+    "bbox": {
+      "min": [
+        0,
+        -600,
+        0
+      ],
+      "max": [
+        1200,
+        0,
+        740
+      ]
+    }
+  },
+  {
+    "file": "solidcraft/bibliotek/Skrivebord 1400.sc",
+    "batch": "11-skrivebord.json",
+    "volume_mm3": 59643952.4,
+    "bodies": 4,
+    "bbox": {
+      "min": [
+        0,
+        -700,
+        0
+      ],
+      "max": [
+        1400,
+        0,
+        740
+      ]
+    }
+  },
+  {
+    "file": "solidcraft/bibliotek/Skrivebord 1800.sc",
+    "batch": "12-skrivebord.json",
+    "volume_mm3": 77718952.4,
+    "bodies": 4,
+    "bbox": {
+      "min": [
+        0,
+        -800,
+        0
+      ],
+      "max": [
+        1800,
+        0,
+        740
+      ]
+    }
+  }
+]

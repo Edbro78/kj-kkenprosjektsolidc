@@ -1,0 +1,46 @@
+﻿Fil;ID;Modul;Del;Tykkelse (mm);Lengde (mm);Bredde (mm);Antall;Farge;Hull;Merknad
+dxf/SB-01-GAVL.dxf;SB-01-GAVL;SB-01;Gavl;25;715;700;2;Hvit;2× GJENNOM_D7;Ø7 konfirmathull for rygg, Ø10 for justerbare glidere
+dxf/SB-01-TOPP.dxf;SB-01-TOPP;SB-01;Bordplate;25;1400;700;1;Hvit;;Festes med vinkelbeslag fra undersiden
+dxf/SB-01-RYGG.dxf;SB-01-RYGG;SB-01;Rygg;25;1350;300;1;Hvit;4× KANT_D5_Z28;60 mm fra bakkant. Ø7 konfirmathull i begge ender
+dxf/HY-01-SIDE.dxf;HY-01-SIDE;HY-01;Side;18;2000;344;2;Hvit;4× GJENNOM_D7, 116× S1_D5_Z12;32 mm-hyllehull Ø5, 2 rader 37 mm fra kant. Ø5 konfirmathull topp/bunn
+dxf/HY-01-TOPP.dxf;HY-01-TOPP;HY-01;Topp;18;764;344;1;Hvit;4× KANT_D5_Z35;Ø7 konfirmathull i begge ender
+dxf/HY-01-BUNN.dxf;HY-01-BUNN;HY-01;Bunn;18;764;344;1;Hvit;4× KANT_D5_Z35;Ø7 konfirmathull i begge ender
+dxf/HY-01-HYLLE.dxf;HY-01-HYLLE;HY-01;Løs hylle;18;762;334;4;Hvit;;1 mm klaring per side, 10 mm tilbaketrukket
+dxf/HY-01-BAK.dxf;HY-01-BAK;HY-01;Bakplate;6;2000;800;1;Hvit;;Skrus i bakkant
+dxf/HY-02-SIDE.dxf;HY-02-SIDE;HY-02;Side;18;2000;344;2;Hvit;4× GJENNOM_D7, 116× S1_D5_Z12;32 mm-hyllehull Ø5, 2 rader 37 mm fra kant. Ø5 konfirmathull topp/bunn
+dxf/HY-02-TOPP.dxf;HY-02-TOPP;HY-02;Topp;18;764;344;1;Hvit;4× KANT_D5_Z35;Ø7 konfirmathull i begge ender
+dxf/HY-02-BUNN.dxf;HY-02-BUNN;HY-02;Bunn;18;764;344;1;Hvit;4× KANT_D5_Z35;Ø7 konfirmathull i begge ender
+dxf/HY-02-HYLLE.dxf;HY-02-HYLLE;HY-02;Løs hylle;18;762;334;4;Hvit;;1 mm klaring per side, 10 mm tilbaketrukket
+dxf/HY-02-BAK.dxf;HY-02-BAK;HY-02;Bakplate;6;2000;800;1;Hvit;;Skrus i bakkant
+dxf/UK-01-SIDE.dxf;UK-01-SIDE;UK-01;Side;18;770;554;2;Hvit;7× GJENNOM_D7, 38× S1_D5_Z12;Ø35 hengselkopp-plater, 32 mm-hyllehull Ø5
+dxf/UK-01-BUNN.dxf;UK-01-BUNN;UK-01;Bunn;18;564;554;1;Hvit;6× KANT_D5_Z35;Ø7 konfirmathull i begge ender, Ø10 for justerbare ben
+dxf/UK-01-REKKE.dxf;UK-01-REKKE;UK-01;Topprekke;18;564;100;2;Hvit;4× KANT_D5_Z35;Front. Ø7 konfirmathull i begge ender
+dxf/UK-01-BAK.dxf;UK-01-BAK;UK-01;Bakplate;6;770;600;1;Hvit;;Skrus i bakkant
+dxf/UK-01-SOKKEL.dxf;UK-01-SOKKEL;UK-01;Sokkelfront;18;600;98;1;Hvit;;Festes med sokkelklips, 50 mm tilbaketrukket
+dxf/UK-01-HYLLE.dxf;UK-01-HYLLE;UK-01;Løs hylle;18;562;534;1;Hvit;;1 mm klaring per side
+dxf/UK-01-DOR.dxf;UK-01-DOR;UK-01;Dør;18;767;597;1;Hvit;2× S1_D35_Z12,5, 1× GJENNOM_D5;Ø35 hengselkopp 22 mm fra kant, 100 mm fra topp/bunn. 3 mm fuge
+dxf/UK-01-BENK.dxf;UK-01-BENK;UK-01;Benkeplate;30;600;600;1;Hvit;;Fuktbestandig MDF, lakkert. Skrus fra undersiden gjennom rekker
+dxf/UK-02-SIDE.dxf;UK-02-SIDE;UK-02;Side;18;770;554;2;Hvit;7× GJENNOM_D7, 38× S1_D5_Z12;Ø35 hengselkopp-plater, 32 mm-hyllehull Ø5
+dxf/UK-02-BUNN.dxf;UK-02-BUNN;UK-02;Bunn;18;564;554;1;Hvit;6× KANT_D5_Z35;Ø7 konfirmathull i begge ender, Ø10 for justerbare ben
+dxf/UK-02-REKKE.dxf;UK-02-REKKE;UK-02;Topprekke;18;564;100;2;Hvit;4× KANT_D5_Z35;Front. Ø7 konfirmathull i begge ender
+dxf/UK-02-BAK.dxf;UK-02-BAK;UK-02;Bakplate;6;770;600;1;Hvit;;Skrus i bakkant
+dxf/UK-02-SOKKEL.dxf;UK-02-SOKKEL;UK-02;Sokkelfront;18;600;98;1;Hvit;;Festes med sokkelklips, 50 mm tilbaketrukket
+dxf/UK-02-HYLLE.dxf;UK-02-HYLLE;UK-02;Løs hylle;18;562;534;1;Hvit;;1 mm klaring per side
+dxf/UK-02-DOR.dxf;UK-02-DOR;UK-02;Dør;18;767;597;1;Hvit;2× S1_D35_Z12,5, 1× GJENNOM_D5;Ø35 hengselkopp 22 mm fra kant, 100 mm fra topp/bunn. 3 mm fuge
+dxf/UK-02-BENK.dxf;UK-02-BENK;UK-02;Benkeplate;30;600;600;1;Hvit;;Fuktbestandig MDF, lakkert. Skrus fra undersiden gjennom rekker
+dxf/UK-03-SIDE.dxf;UK-03-SIDE;UK-03;Side;18;770;554;2;Hvit;7× GJENNOM_D7, 38× S1_D5_Z12;Ø35 hengselkopp-plater, 32 mm-hyllehull Ø5
+dxf/UK-03-BUNN.dxf;UK-03-BUNN;UK-03;Bunn;18;564;554;1;Hvit;6× KANT_D5_Z35;Ø7 konfirmathull i begge ender, Ø10 for justerbare ben
+dxf/UK-03-REKKE.dxf;UK-03-REKKE;UK-03;Topprekke;18;564;100;2;Hvit;4× KANT_D5_Z35;Front. Ø7 konfirmathull i begge ender
+dxf/UK-03-BAK.dxf;UK-03-BAK;UK-03;Bakplate;6;770;600;1;Hvit;;Skrus i bakkant
+dxf/UK-03-SOKKEL.dxf;UK-03-SOKKEL;UK-03;Sokkelfront;18;600;98;1;Hvit;;Festes med sokkelklips, 50 mm tilbaketrukket
+dxf/UK-03-HYLLE.dxf;UK-03-HYLLE;UK-03;Løs hylle;18;562;534;1;Hvit;;1 mm klaring per side
+dxf/UK-03-DOR.dxf;UK-03-DOR;UK-03;Dør;18;767;597;1;Hvit;2× S1_D35_Z12,5, 1× GJENNOM_D5;Ø35 hengselkopp 22 mm fra kant, 100 mm fra topp/bunn. 3 mm fuge
+dxf/UK-03-BENK.dxf;UK-03-BENK;UK-03;Benkeplate;30;600;600;1;Hvit;;Fuktbestandig MDF, lakkert. Skrus fra undersiden gjennom rekker
+dxf/UK-04-SIDE.dxf;UK-04-SIDE;UK-04;Side;18;770;554;2;Hvit;7× GJENNOM_D7, 38× S1_D5_Z12;Ø35 hengselkopp-plater, 32 mm-hyllehull Ø5
+dxf/UK-04-BUNN.dxf;UK-04-BUNN;UK-04;Bunn;18;564;554;1;Hvit;6× KANT_D5_Z35;Ø7 konfirmathull i begge ender, Ø10 for justerbare ben
+dxf/UK-04-REKKE.dxf;UK-04-REKKE;UK-04;Topprekke;18;564;100;2;Hvit;4× KANT_D5_Z35;Front. Ø7 konfirmathull i begge ender
+dxf/UK-04-BAK.dxf;UK-04-BAK;UK-04;Bakplate;6;770;600;1;Hvit;;Skrus i bakkant
+dxf/UK-04-SOKKEL.dxf;UK-04-SOKKEL;UK-04;Sokkelfront;18;600;98;1;Hvit;;Festes med sokkelklips, 50 mm tilbaketrukket
+dxf/UK-04-HYLLE.dxf;UK-04-HYLLE;UK-04;Løs hylle;18;562;534;1;Hvit;;1 mm klaring per side
+dxf/UK-04-DOR.dxf;UK-04-DOR;UK-04;Dør;18;767;597;1;Hvit;2× S1_D35_Z12,5, 1× GJENNOM_D5;Ø35 hengselkopp 22 mm fra kant, 100 mm fra topp/bunn. 3 mm fuge
+dxf/UK-04-BENK.dxf;UK-04-BENK;UK-04;Benkeplate;30;600;600;1;Hvit;;Fuktbestandig MDF, lakkert. Skrus fra undersiden gjennom rekker

@@ -1,0 +1,92 @@
+{
+ "commands": [
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 19,
+    "base": [
+     3438.5,
+     1841.5,
+     808.5
+    ],
+    "axis": [
+     -1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-01-DOR"
+    ],
+    "name": "UK-01-DOR knott 236"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 19,
+    "base": [
+     3438.5,
+     1241.5,
+     808.5
+    ],
+    "axis": [
+     -1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-02-DOR"
+    ],
+    "name": "UK-02-DOR knott 237"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 19,
+    "base": [
+     3438.5,
+     641.5,
+     808.5
+    ],
+    "axis": [
+     -1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-03-DOR"
+    ],
+    "name": "UK-03-DOR knott 238"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5,
+    "height": 19,
+    "base": [
+     3438.5,
+     41.5,
+     808.5
+    ],
+    "axis": [
+     -1,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "UK-04-DOR"
+    ],
+    "name": "UK-04-DOR knott 239"
+   }
+  }
+ ]
+}
